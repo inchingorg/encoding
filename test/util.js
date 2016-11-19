@@ -3,7 +3,7 @@
  */
 
 var assert = require('assert');
-var util = require('../lib/util');
+var util = require('../lib/format');
 
 describe('Util', function () {
 

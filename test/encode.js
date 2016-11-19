@@ -1,9 +1,22 @@
 var program = require('../lib');
-var assert = require('assert');
+var chai = require('chai');
+chai.should();
 
-describe('String Encoding', function () {
+describe('Encoding', function () {
 
-    it('string to hex', function () {
-        program.parse(['node', 'xdata-cli', 'encode', '中国', '-c', 'gbk']);
+    it('as default style', function () {
+        program.parse(['node', 'xdata-cli1', 'encode', '中国', '--encoding', 'gbk']);
+    });
+
+    it('as array style', function () {
+        program.parse(['node', 'xdata-cli1', 'encode', '中国', '--encoding', 'gbk', '--format', 'array']);
+    });
+
+    it('as hex map style', function () {
+        program.parse(['node', 'xdata-cli1', 'encode', '中国', '--encoding', 'gbk', '--format', 'map']);
+    });
+
+    it('as pretty style', function () {
+        program.parse(['node', 'xdata-cli1', 'encode', '中国', '--encoding', 'gbk', '--format', 'pretty']);
     });
 });
