@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9d97e3-ef1a-49be-821d-99fed4856942" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/xdata" afterPath="$PROJECT_DIR$/bin/xdata" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/index.js" afterPath="$PROJECT_DIR$/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/decode.js" afterPath="$PROJECT_DIR$/test/decode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/encode.js" afterPath="$PROJECT_DIR$/test/encode.js" />
     </list>
     <ignored path="encoding-cli.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="313">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -85,12 +81,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="450">
-                <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -101,8 +97,8 @@
       <file leaf-file-name="decode.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/decode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="210">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -135,8 +131,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/commander/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6810">
-              <caret line="454" column="53" selection-start-line="454" selection-start-column="53" selection-end-line="454" selection-end-column="53" />
+            <state relative-caret-position="146">
+              <caret line="272" column="36" selection-start-line="272" selection-start-column="36" selection-end-line="272" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -165,11 +161,12 @@
         <option value="$PROJECT_DIR$/lib/util.js" />
         <option value="$PROJECT_DIR$/lib/format.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/test/decode.js" />
         <option value="$PROJECT_DIR$/test/encode.js" />
-        <option value="$PROJECT_DIR$/lib/index.js" />
         <option value="$PROJECT_DIR$/bin/xdata" />
         <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/node_modules/commander/index.js" />
+        <option value="$PROJECT_DIR$/test/decode.js" />
+        <option value="$PROJECT_DIR$/lib/index.js" />
       </list>
     </option>
   </component>
@@ -402,7 +399,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
-  <component name="RunManager" selected="Mocha.Encoding.as default style">
+  <component name="RunManager" selected="Mocha.Decode.decode array hex">
     <configuration default="false" name="Decode.decode pretty hex" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -541,11 +538,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Encoding.as default style" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Decode.decode pretty hex" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Decode.decode array hex" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.test/decode.js" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.Decode.decode compressed hex" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Decode.decode array hex" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Decode.decode compressed hex" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Encoding.as default style" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Decode.decode pretty hex" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.test/decode.js" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +565,7 @@
       <workItem from="1479560377038" duration="2200000" />
       <workItem from="1479563704133" duration="63000" />
       <workItem from="1479563779414" duration="6105000" />
-      <workItem from="1479648278047" duration="3250000" />
+      <workItem from="1479648278047" duration="4798000" />
     </task>
     <servers />
   </component>
@@ -579,11 +576,17 @@
     <history-entry file="Decode_decode_array_hex - 2016.11.20 at 21h 35m 15s.xml">
       <configuration name="Decode.decode array hex" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Decode_decode_array_hex - 2016.11.20 at 22h 37m 57s.xml">
+      <configuration name="Decode.decode array hex" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Decode_decode_array_hex - 2016.11.20 at 22h 38m 21s.xml">
+      <configuration name="Decode.decode array hex" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
     <history-entry file="Decode_decode_compressed_hex - 2016.11.20 at 21h 31m 52s.xml">
       <configuration name="Decode.decode compressed hex" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Decode_decode_pretty_hex - 2016.11.20 at 21h 31m 43s.xml">
-      <configuration name="Decode.decode pretty hex" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Decode_decode_compressed_hex - 2016.11.20 at 22h 37m 50s.xml">
+      <configuration name="Decode.decode compressed hex" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="Decode_decode_pretty_hex - 2016.11.20 at 22h 09m 16s.xml">
       <configuration name="Decode.decode pretty hex" configurationId="mocha-javascript-test-runner" />
@@ -594,18 +597,12 @@
     <history-entry file="Encoding_as_default_style - 2016.11.20 at 22h 13m 18s.xml">
       <configuration name="Encoding.as default style" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Encoding_as_pretty_style - 2016.11.19 at 23h 45m 41s.xml">
-      <configuration name="Encoding.as pretty style" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Encoding_as_pretty_style - 2016.11.19 at 23h 45m 55s.xml">
-      <configuration name="Encoding.as pretty style" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="test_decode_js - 2016.11.20 at 21h 32m 01s.xml">
       <configuration name="test/decode.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27396000" />
+    <option name="totallyTimeSpent" value="28944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -643,7 +640,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -931,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/commander/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6810">
-          <caret line="454" column="53" selection-start-line="454" selection-start-column="53" selection-end-line="454" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -963,10 +952,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/commander/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="272" column="36" selection-start-line="272" selection-start-column="36" selection-end-line="272" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/decode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="210">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
@@ -975,22 +983,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="313">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="450">
-            <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

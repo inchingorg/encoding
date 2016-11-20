@@ -1,3 +1,6 @@
+
+`xdata-cli` is a terminal util to process data, like encoding, decoding, convert encoding methods.
+
 ## Install
 
 ```bash
