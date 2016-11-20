@@ -1,5 +1,5 @@
 {
-  "name": "encoding-cli",
+  "name": "xdata-cli",
   "version": "1.0.0",
   "description": "Encoding utils",
   "main": "index.js",
@@ -15,6 +15,8 @@
   },
   "keywords": [
     "encoding",
+    "encode",
+    "decode",
     "utf8",
     "utf-8",
     "gbk",

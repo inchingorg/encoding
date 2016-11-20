@@ -6,15 +6,49 @@ npm install -g xdata-cli
 
 ## Usage
 
-### Encoding
+### Encode
 
-Encode string to byte string.
+Encode string to bytes.
 
 ```bash
-xdata e -e base64 -o hex
+Usage: encode|e [options] <data>
+
+  Encode string data
+
+  Options:
+
+    -h, --help                 output usage information
+    -c, --encoding [encoding]  Encoding method, default utf-8
+    -f, --format [format]      Output format style, options are hex|compress|map|array, hex is default.
+
 ```
 
-### Decoding
+For example:
+
+```
+xdata e 中国 -c gbk
+```
+
+### Decode
+
+Decode bytes to string.
+
+```bash
+Usage: decode|d [options] <data>
+
+  Decode string data
+
+  Options:
+
+    -h, --help                 output usage information
+    -c, --encoding [encoding]  Encoding to be converted from, default utf-8
+```
+
+For example:
+
+```bash
+xdata d "d6 d0 b9 fa" -c gbk
+```
 
 ## Supported encodings
 

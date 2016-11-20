@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9d97e3-ef1a-49be-821d-99fed4856942" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/format.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/util.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/xdata" afterPath="$PROJECT_DIR$/bin/xdata" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/index.js" afterPath="$PROJECT_DIR$/lib/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/decode.js" afterPath="$PROJECT_DIR$/test/decode.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/encode.js" afterPath="$PROJECT_DIR$/test/encode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/util.js" afterPath="$PROJECT_DIR$/test/util.js" />
     </list>
     <ignored path="encoding-cli.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="encode.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="encode.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/encode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -57,8 +56,8 @@
       <file leaf-file-name="xdata" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/xdata">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -67,8 +66,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="37" column="8" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="45">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -77,8 +76,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+            <state relative-caret-position="135">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -86,12 +85,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="450">
+                <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -102,8 +101,8 @@
       <file leaf-file-name="decode.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/decode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="14" column="63" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="63" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -114,7 +113,7 @@
       <file leaf-file-name="format.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/format.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
+            <state relative-caret-position="615">
               <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
@@ -159,18 +158,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bin.js" />
-        <option value="$PROJECT_DIR$/bin/xdata" />
         <option value="$PROJECT_DIR$/test/help.js" />
         <option value="$PROJECT_DIR$/test/utiljs.js" />
         <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/test/util.js" />
-        <option value="$PROJECT_DIR$/test/decode.js" />
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/lib/util.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/test/encode.js" />
         <option value="$PROJECT_DIR$/lib/format.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/test/decode.js" />
+        <option value="$PROJECT_DIR$/test/encode.js" />
         <option value="$PROJECT_DIR$/lib/index.js" />
+        <option value="$PROJECT_DIR$/bin/xdata" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -296,6 +295,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -324,7 +324,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,7 +402,67 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
-  <component name="RunManager" selected="Mocha.Encoding.as hex map style">
+  <component name="RunManager" selected="Mocha.Encoding.as default style">
+    <configuration default="false" name="Decode.decode pretty hex" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/decode.js</test-file>
+      <test-names>
+        <name value="Decode" />
+        <name value="decode pretty hex" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="Decode.decode compressed hex" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/decode.js</test-file>
+      <test-names>
+        <name value="Decode" />
+        <name value="decode compressed hex" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="test/decode.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/decode.js</test-file>
+      <method />
+    </configuration>
+    <configuration default="false" name="Decode.decode array hex" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/decode.js</test-file>
+      <test-names>
+        <name value="Decode" />
+        <name value="decode array hex" />
+      </test-names>
+      <method />
+    </configuration>
     <configuration default="false" name="Encoding.as default style" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -417,69 +476,6 @@
       <test-names>
         <name value="Encoding" />
         <name value="as default style" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="Encoding.as array style" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/encode.js</test-file>
-      <test-names>
-        <name value="Encoding" />
-        <name value="as array style" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="Encoding.as hex map style" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/encode.js</test-file>
-      <test-names>
-        <name value="Encoding" />
-        <name value="as hex map style" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="Encoding.as pretty style" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/encode.js</test-file>
-      <test-names>
-        <name value="Encoding" />
-        <name value="as pretty style" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="Encoding" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/encode.js</test-file>
-      <test-names>
-        <name value="Encoding" />
       </test-names>
       <method />
     </configuration>
@@ -537,19 +533,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Mocha.Encoding.as default style" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.Encoding.as array style" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.Encoding.as hex map style" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.Encoding.as pretty style" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.Encoding" />
+      <item index="0" class="java.lang.String" itemvalue="Mocha.Decode.decode pretty hex" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.Decode.decode compressed hex" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.test/decode.js" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Decode.decode array hex" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Encoding.as default style" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Encoding.as hex map style" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Encoding" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Encoding.as pretty style" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Encoding.as array style" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.Encoding.as default style" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Encoding.as default style" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Decode.decode pretty hex" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Decode.decode array hex" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.test/decode.js" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.Decode.decode compressed hex" />
       </list>
     </recent_temporary>
   </component>
@@ -571,34 +567,32 @@
       <workItem from="1479035216608" duration="6581000" />
       <workItem from="1479560377038" duration="2200000" />
       <workItem from="1479563704133" duration="63000" />
-      <workItem from="1479563779414" duration="5895000" />
+      <workItem from="1479563779414" duration="6105000" />
+      <workItem from="1479648278047" duration="3250000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Encoding - 2016.11.19 at 23h 46m 04s.xml">
-      <configuration name="Encoding" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Decode_decode_array_hex - 2016.11.20 at 21h 32m 11s.xml">
+      <configuration name="Decode.decode array hex" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Encoding_as_array_style - 2016.11.19 at 23h 42m 01s.xml">
-      <configuration name="Encoding.as array style" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Decode_decode_array_hex - 2016.11.20 at 21h 35m 15s.xml">
+      <configuration name="Decode.decode array hex" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Encoding_as_array_style - 2016.11.19 at 23h 43m 42s.xml">
-      <configuration name="Encoding.as array style" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Decode_decode_compressed_hex - 2016.11.20 at 21h 31m 52s.xml">
+      <configuration name="Decode.decode compressed hex" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Encoding_as_array_style - 2016.11.19 at 23h 44m 13s.xml">
-      <configuration name="Encoding.as array style" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Decode_decode_pretty_hex - 2016.11.20 at 21h 31m 43s.xml">
+      <configuration name="Decode.decode pretty hex" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Encoding_as_default_style - 2016.11.19 at 23h 41m 40s.xml">
+    <history-entry file="Decode_decode_pretty_hex - 2016.11.20 at 22h 09m 16s.xml">
+      <configuration name="Decode.decode pretty hex" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Encoding_as_default_style - 2016.11.20 at 22h 09m 36s.xml">
       <configuration name="Encoding.as default style" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Encoding_as_hex_map_style - 2016.11.19 at 23h 44m 30s.xml">
-      <configuration name="Encoding.as hex map style" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Encoding_as_hex_map_style - 2016.11.19 at 23h 46m 13s.xml">
-      <configuration name="Encoding.as hex map style" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Encoding_as_pretty_style - 2016.11.19 at 23h 45m 14s.xml">
-      <configuration name="Encoding.as pretty style" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Encoding_as_default_style - 2016.11.20 at 22h 13m 18s.xml">
+      <configuration name="Encoding.as default style" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="Encoding_as_pretty_style - 2016.11.19 at 23h 45m 41s.xml">
       <configuration name="Encoding.as pretty style" configurationId="mocha-javascript-test-runner" />
@@ -606,9 +600,12 @@
     <history-entry file="Encoding_as_pretty_style - 2016.11.19 at 23h 45m 55s.xml">
       <configuration name="Encoding.as pretty style" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="test_decode_js - 2016.11.20 at 21h 32m 01s.xml">
+      <configuration name="test/decode.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23936000" />
+    <option name="totallyTimeSpent" value="27396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -617,19 +614,19 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4537445" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36710718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -906,13 +903,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin.js" />
-    <entry file="file://$PROJECT_DIR$/test/decode.js">
+    <entry file="file://$PROJECT_DIR$/test/help.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/format.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,18 +939,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/xdata">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/help.js">
+    <entry file="file://$PROJECT_DIR$/test/encode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/xdata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/decode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
@@ -954,46 +985,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="450">
+            <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="37" column="8" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/format.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/encode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
