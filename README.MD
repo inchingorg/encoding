@@ -9,6 +9,21 @@ npm install -g xdata-cli
 
 ## Usage
 
+```
+Usage: xdata [options] [command]
+ 
+ 
+   Commands:
+ 
+     encode|e [options] <data>  Encode string to bytes
+     decode|d [options] <data>  Decode bytes to string
+     convert|c <data>           Convert encoding.
+ 
+   Options:
+ 
+     -h, --help  output usage information
+```
+
 ### Encode
 
 Encode string to bytes.
