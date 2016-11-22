@@ -92,3 +92,4 @@ xdata d "d6 d0 b9 fa" -c gbk
 
 - [ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite) Convert character encodings in pure javascript.
 - [commander-rb/commander](https://github.com/commander-rb/commander) The complete solution for Ruby command-line executables.
+- [andris9/encoding: Encode/decode strings with node-iconv and iconv-lite](https://github.com/andris9/encoding)
