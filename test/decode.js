@@ -3,6 +3,7 @@
  */
 var program = require('../lib');
 var assert = require('assert');
+var iconv = require('iconv-lite');
 
 describe('Decode', function () {
 
@@ -17,7 +18,10 @@ describe('Decode', function () {
     });
 
     it('decode array hex', function () {
-        program.parse(['node', 'xdata-cli', 'decode', '[0xd6, 0xd0, 0xb9, 0xfa]', '--encoding', 'gbk']);
+        var a = iconv.encode('中国', "base64").toString("utf-8");
+        console.log(a);
+
+        // program.parse(['node', 'xdata-cli', 'decode', '[0xd6, 0xd0, 0xb9, 0xfa]', '--encoding', 'gbk']);
         // 中国
     });
 });
