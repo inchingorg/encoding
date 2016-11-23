@@ -46,6 +46,7 @@ For example:
 ```
 xdata e 中国 -c gbk
 ```
+### Base64
 
 ### Decode
 
