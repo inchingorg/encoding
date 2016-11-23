@@ -1,22 +1,22 @@
-var program = require('../lib');
+var encode = require('../lib/encode');
 var chai = require('chai');
 chai.should();
 
 describe('Encoding', function () {
 
     it('as default style', function () {
-        program.parse(['node', 'xdata', 'encode', '中国', '--encoding', 'gbk']);
+        encode.parse(['node', 'xdata', 'encode', '中国', '--encoding', 'gbk']);
     });
 
     it('as array style', function () {
-        program.parse(['node', 'xdata', 'encode', '中国', '--encoding', 'gbk', '--format', 'array']);
+        encode.parse(['node', 'xdata', 'encode', '中国', '--encoding', 'gbk', '--format', 'array']);
     });
 
     it('as hex map style', function () {
-        program.parse(['node', 'xdata', 'encode', '中国', '--encoding', 'gbk', '--format', 'map']);
+        encode.parse(['node', 'xdata', 'encode', '中国', '--encoding', 'gbk', '--format', 'map']);
     });
 
     it('as pretty style', function () {
-        program.parse(['node', 'xdata', 'encode', '中国', '--encoding', 'gbk', '--format', 'pretty']);
+        encode.parse(['node', 'xdata', 'encode', '中国', '--encoding', 'gbk', '--format', 'pretty']);
     });
 });
