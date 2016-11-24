@@ -76,7 +76,7 @@ Usage: decode|d [options] <data>
 For example:
 
 ```bash
-decode d "d6 d0 b9 fa" -c gbk
+decode "d6 d0 b9 fa" -c gbk
 ```
 
 ## Supported encodings
