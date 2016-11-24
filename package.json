@@ -1,6 +1,6 @@
 {
   "name": "xdata-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Encoding utils",
   "main": "index.js",
   "scripts": {
