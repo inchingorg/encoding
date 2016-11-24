@@ -9,21 +9,6 @@ npm install -g xdata-cli
 
 ## Usage
 
-```
-Usage: xdata [options] [command]
- 
- 
-   Commands:
- 
-     encode|e [options] <data>  Encode string to bytes
-     decode|d [options] <data>  Decode bytes to string
-     convert|c <data>           Convert encoding.
- 
-   Options:
- 
-     -h, --help  output usage information
-```
-
 ### Encode
 
 Encode string to bytes.
@@ -31,22 +16,47 @@ Encode string to bytes.
 ```bash
 Usage: encode|e [options] <data>
 
-  Encode string data
+  Encode string to bytes
 
   Options:
 
     -h, --help                 output usage information
-    -c, --encoding [encoding]  Encoding method, default utf-8
-    -f, --format [format]      Output format style, options are hex|compress|map|array, hex is default.
-
+    -c, --encoding [encoding]  Encoding, default utf-8
+    -f, --format [format]      Output format style, options are compressed|map|array, hex is default.
 ```
 
 For example:
 
 ```
-xdata e 中国 -c gbk
+encode 中国 -c gbk
 ```
 ### Base64
+
+Encode:
+
+```
+Usage: b64 encode|e [options] <data>
+
+  Encode plain text string to base64.
+
+  Options:
+
+    -h, --help                 output usage information
+    -c, --encoding [encoding]  encoding, default utf-8
+```
+
+Decode:
+
+```
+Usage: b64 decode|d [options] <data>
+
+  Decode base64 to plain text string. 
+
+  Options:
+
+    -h, --help                 output usage information
+    -c, --encoding [encoding]  encoding, default utf-8
+```
 
 ### Decode
 
@@ -66,7 +76,7 @@ Usage: decode|d [options] <data>
 For example:
 
 ```bash
-xdata d "d6 d0 b9 fa" -c gbk
+decode d "d6 d0 b9 fa" -c gbk
 ```
 
 ## Supported encodings
