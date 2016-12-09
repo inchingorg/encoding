@@ -7,9 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "encode": "./bin/encode",
-    "decode": "./bin/decode",
-    "b64": "./bin/base64"
+    "xdata": "./bin/xdata"
   },
   "repository": {
     "type": "git",
