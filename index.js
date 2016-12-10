@@ -3,7 +3,9 @@
  */
 
 var program = require('commander'),
-    xdata = require('xdata-library');
+    xdata = require('@inchingorg/xdata'),
+    decoder = xdata.decoder,
+    encoder = xdata.encoder;
 
 
 module.exports = program;
@@ -15,7 +17,8 @@ program.command('encode <data>')
     .option('-c, --encoding [encoding]', 'Encoding, default utf-8', "utf-8")
     .option('-f, --format [format]', 'Output format style, options are compressed|map|array, hex is default.', "/^(hex|compressed|map)", 'hex')
     .action(function (data) {
-        var result = xdata.encode(data, this.encoding, this.format);
+        var buffer = encoder.encode(data, this.encoding);
+        var result = encoder.format(buffer, this.format)
         console.log(result);
     });
 
@@ -24,7 +27,7 @@ program.command('decode <data>')
     .alias('d')
     .option('-c, --encoding [encoding]', 'Encoding, default utf-8', "utf-8")
     .action(function (data) {
-        var result = xdata.decode(data, this.encoding);
+        var result = decoder.decode(data, this.encoding);
         console.log(result);
     });
 
